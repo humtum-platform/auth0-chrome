@@ -1,6 +1,6 @@
 {
   "name": "humtum-auth0-chrome",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Package for using Auth0 in a Chrome Extension",
   "main": "dist/auth0chrome.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "build-example": "node run example"
   },
   "author": "Auth0",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "devDependencies": {
     "@babel/cli": "^7.2.0",
     "@babel/core": "^7.2.2",
