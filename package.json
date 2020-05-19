@@ -4,7 +4,7 @@
   "description": "Package for using Auth0 in a Chrome Extension",
   "main": "dist/auth0chrome.js",
   "scripts": {
-    "build": "node run build",
+    "build": "node run build && cp dist/* ../HumtumChromeExample/sentinel/vendor",
     "build-example": "node run example"
   },
   "author": "Auth0",
@@ -23,5 +23,7 @@
     "webpack": "^4.28.0",
     "webpack-merge": "^4.1.5"
   },
-  "dependencies": {}
+  "dependencies": {
+    "crypto-random-string": "^3.2.0"
+  }
 }
