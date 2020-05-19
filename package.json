@@ -1,10 +1,10 @@
 {
-  "name": "auth0-chrome",
+  "name": "humtum-auth0-chrome",
   "version": "0.1.2",
   "description": "Package for using Auth0 in a Chrome Extension",
   "main": "dist/auth0chrome.js",
   "scripts": {
-    "build": "node run build && cp dist/* ../HumtumChromeExample/sentinel/vendor",
+    "build": "node run build",
     "build-example": "node run example"
   },
   "author": "Auth0",
